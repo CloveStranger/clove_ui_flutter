@@ -6,6 +6,11 @@ class ComplexPainter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return Container();
+    return Container(
+      decoration: BoxDecoration(
+        color: Colors.black,
+      ),
+      child: SizedBox.expand(),
+    );
   }
 }
