@@ -13,7 +13,9 @@ class ComplexPainterExample extends StatelessWidget {
           'Complex Painter',
         ),
       ),
-      body: ComplexPainter(),
+      body: ComplexPainter(
+        controller: ComplexPainterController(),
+      ),
     );
   }
 }

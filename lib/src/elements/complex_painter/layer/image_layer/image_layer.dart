@@ -2,15 +2,14 @@ import 'package:clove_ui_flutter/clove_ui_flutter.dart';
 import 'package:clove_ui_flutter/src/elements/complex_painter/model/layer_class.dart';
 import 'package:flutter/material.dart';
 
-class PaintLayer extends StatelessWidget {
+class ImageLayer extends StatelessWidget {
   final ComplexPainterController controller;
+  final ImageLayerInfo imageLayerInfo;
 
-  final PaintLayerInfo paintLayerInfo;
-
-  const PaintLayer({
+  const ImageLayer({
     super.key,
     required this.controller,
-    required this.paintLayerInfo,
+    required this.imageLayerInfo,
   });
 
   @override
